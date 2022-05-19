@@ -1,0 +1,123 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 59px;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgba(34, 90, 98,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+#header .input-group{
+    align-items: center;
+}
+#img{ 
+    max-block-size: 56px;
+    display: inline-block;
+}
+#header .search{
+    display: inline-block;
+    width: 262px;
+    margin-left: 400px;
+}
+#header .img{
+    width: 40px;
+}
+#header .lookup{
+    float: right;
+}
+#header .insert-bt{
+    border:0;
+    width: 200;
+}
+#header .insert{
+    color: rgb(255,255,255);
+    background-color: rgb(254,44,85);
+    width: 150px;
+    text-decoration: none;
+}
+#header .tim{
+    cursor: pointer;
+}
+#header .nav{
+    display: none;
+}
+#header #menu{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#slider{
+    margin-top: 59px;
+    margin-left: 50px;
+    width: 300px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+}
+#slider .top{
+    border-bottom-style:solid;
+    border:0px 0px 1px 0px rgb(22, 24, 35);
+}
+#slider .bt-home .font{
+    text-decoration: none;
+    font-size: 18px;
+}
+#slider .bt-home{
+    width: 290px;
+    border:0;
+    background-color: #fff;
+}
+#slider .bt-home:hover{
+    background-color: rgba(22,24,35,0.03);
+}
+#slider .home{
+    display: inline-block;
+}
+
+#slider .in{
+    text-decoration: none;
+}
+#slider .bt{
+    height: 48px;
+    width: 300px;
+}
+#slider .end{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#slider .end .end-fon{
+    margin-top: 200px;
+    cursor: pointer;
+    color: rgba(22, 24, 35, 0.5);
+    text-decoration: none;
+    text-decoration-style: solid;
+
+}
+#slider .tt .end-bt{
+    text-decoration-line: none;
+    color: rgba(22, 24, 35, 0.5);
+    margin-top: 100px; 
+
+
+}
+
+
+
+#content{
+    margin-top: 59px;
+    margin-left: 700px;
+}
